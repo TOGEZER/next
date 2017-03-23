@@ -55,13 +55,6 @@ L.mapbox.map('map', 'mapbox.streets')
   .setView([-16.804541076383455, -65.61035156250001], 7)
   .featureLayer.setGeoJSON(geojson);
 
-   .featureLayer.on('mouseover', function(e) {
-    e.layer.openPopup();
-});
-
-
-
-
 
         GLOBALS.map_init=true;       
     }
