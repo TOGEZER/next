@@ -1,0 +1,32 @@
+{
+  type: 'FeatureCollection',
+  features: [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.12896728515625, -16.34649680535433]
+      },
+      "properties": {
+        "title": "Chacaltaya",
+        "description": "1714 14th St NW, Washington DC",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "monument"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.82571411132812, -20.46715996263888]
+      },
+      "properties": {
+        "title": "UYUNI",
+        "description": "155 9th St, San Francisco",
+        "marker-color": "#fc4353",
+        "marker-size": "large",
+        "marker-symbol": "harbor"
+      }
+    }
+  ]
